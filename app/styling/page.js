@@ -1,4 +1,4 @@
-import InfoCard from '../../../components/InfoCard'
+import InfoCard from '../../components/InfoCard'
 
 export default function Styling(){
   return (
@@ -7,23 +7,23 @@ export default function Styling(){
       <img src="/styling.jpg" alt="styling" style={{width:'100%',maxHeight:280,objectFit:'cover',borderRadius:8}} />
 
       <div style={{marginTop:16}} className="grid">
-        <InfoCard title="Exemplos">
-          <p>Tailwind CSS, Bootstrap, Material UI, Styled Components.</p>
+        <InfoCard title="Principais opções">
+          <p>Tailwind, Bootstrap, Material UI e Styled Components — diferenças em abordagem e uso.</p>
         </InfoCard>
 
-        <InfoCard title="Escolha e porquê">
-          <p>Escolheríamos Tailwind para o curso: rápido para prototipagem, utilitário, grande adoção e flexibilidade.</p>
+        <InfoCard title="Escolha sugerida">
+          <p>Para aulas, Tailwind é uma boa opção: rápido para protótipos e fácil de justificar em exercícios práticos.</p>
         </InfoCard>
 
-        <InfoCard title="Prós e Contras">
+        <InfoCard title="Prós e contras">
           <ul>
-            <li>Tailwind: prós — produtividade; contras — classes verbosas.</li>
-            <li>Material UI: prós — componentes prontos; contras — maior bundle.</li>
+            <li>Tailwind: prós — produtividade; contras — sintaxe extensa em classes.</li>
+            <li>Material UI: prós — componentes prontos; contras — maior complexidade de tema.</li>
           </ul>
         </InfoCard>
 
-        <InfoCard title="Empresas que usam">
-          <p>Empresas grandes usam diferentes soluções: Tailwind (Cloudflare, GitHub em partes), Material UI (Google internamente em MD), Bootstrap (diversos projetos).</p>
+        <InfoCard title="Uso no mercado">
+          <p>Empresas adotam soluções diferentes conforme necessidade: Tailwind vem crescendo; Material UI é comum em dashboards.</p>
         </InfoCard>
       </div>
     </section>
