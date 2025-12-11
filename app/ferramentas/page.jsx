@@ -1,18 +1,17 @@
 import InfoCard from '../../components/InfoCard'
+import HeroHeader from '../../components/HeroHeader'
 
 export default function Ferramentas(){
     return (
         <main className="container">
-            <section className="hero card" style={{marginBottom:16, padding: '1rem'}}>
-                <div style={{display:'flex',alignItems:'center',gap:16}}>
-                    <img src="/logo.svg" alt="logo" style={{width:84,height:84,borderRadius:10}}/>
-                    <div>
-                        <h2 className="hero-title" style={{margin:0}}>Ferramentas</h2>
-                        <p className="hero-sub muted-small" style={{marginTop:6}}>Resumo prático sobre ferramentas úteis em desenvolvimento web — build, deploy e testes.</p>
-                    </div>
-                </div>
-            </section>
-
+                <HeroHeader
+                    /* escondemos o logo que contém o texto 'Wiki' para ficar mais limpo */
+                    showLogo={false}
+                    icon="https://cdn-icons-png.flaticon.com/512/299/299326.png"
+                    title="Ferramentas e Recursos"
+                    subtitle="Ferramentas úteis para pesquisa e desenvolvimento: editores, CLI, bibliotecas e serviços." 
+                />
+                
             <section>
                 <div className="grid">
                     <InfoCard title="Build e Bundlers">
