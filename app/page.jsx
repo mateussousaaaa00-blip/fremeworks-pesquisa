@@ -7,7 +7,7 @@ export default function Home(){
         <img src="/logo.svg" alt="logo" />
         <div>
           <h2>Mini Wiki de Tecnologia</h2>
-          <p>Resumos curtos e claros sobre tecnologias de mercado. Conteúdo pensado para professores — linguagem simples e direta.</p>
+          <p>Resumos curtos e claros sobre tecnologias de mercado. Uma pesquisa em forma de código</p>
         </div>
       </div>
 

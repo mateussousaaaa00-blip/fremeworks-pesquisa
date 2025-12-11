@@ -17,7 +17,7 @@ export default function RootLayout({ children }){
               <img src="/logo.svg" alt="logo" style={{height:40}}/>
               <div>
                 <h1 style={{margin:0}}>Mini Wiki de Tecnologia</h1>
-                <div style={{fontSize:12,color:'var(--muted)'}}>Grupo: Alunos DS — Atividade: Pesquisa</div>
+                <div style={{fontSize:12,color:'var(--muted)'}}>Nome: Mateus Marcelino — Atividade: Pesquisa</div>
               </div>
             </div>
             <NavBar />
