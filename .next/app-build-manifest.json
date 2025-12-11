@@ -20,6 +20,36 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/next15/page.js"
+    ],
+    "/frameworks/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/frameworks/loading.js"
+    ],
+    "/frameworks/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/frameworks/not-found.js"
+    ],
+    "/frameworks/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/frameworks/page.js"
+    ],
+    "/styling/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/styling/loading.js"
+    ],
+    "/styling/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/styling/page.js"
+    ],
+    "/ferramentas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/ferramentas/page.js"
     ]
   }
 }
