@@ -1,8 +1,9 @@
 export default function Footer(){
   return (
     <footer className="footer">
-      <div>Mini Wiki de Tecnologia — Mateus</div>
-      <div style={{fontSize:12}}>Resumos curtos e objetivos para uso em sala de aula.</div>
+      <div style={{fontSize:12,color:'var(--muted)'}}>
+        © {new Date().getFullYear()} Mini Wiki de Tecnologia
+      </div>
     </footer>
   )
 }
